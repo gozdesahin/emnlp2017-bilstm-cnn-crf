@@ -5,7 +5,7 @@
 # For pretrained models see docs/
 import nltk
 import sys
-from util.preprocessing import addCharInformation, createMatrices, addCasingInformation, addEmbeddings, readCoNLL
+from util.preprocessing import addCharInformation, createMatrices, addCasingInformation, readCoNLL
 from neuralnets.BiLSTM import BiLSTM
 import argparse
 from util.postprocessing import get_last_model_path
